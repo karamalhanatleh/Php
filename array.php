@@ -220,7 +220,9 @@ $grades=array(70,98,87,79,68,76,98);
  $sum=array_sum($grades);
  $avg=$sum/count($grades);
  echo "Sum= " .$sum ."<br>";
- echo "average= ". $avg;
+ echo "average= ". $avg; echo ="<br>";
+ 
+
 
 
 
