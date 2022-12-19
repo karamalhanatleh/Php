@@ -9,7 +9,7 @@ if (strlen($_SESSION['username']) <2 ){
 else {echo "Name is " . $_SESSION['username']; br();}
 
 if(strlen($_SESSION['password']) <5){
-	echo "<b style='color:Tomato;'> Password length must be greater than 8 characters	 </b>"; br();
+	echo "<b style='color:red;'> Password length must be greater than 8 characters	 </b>"; br();
 }
 else{" echo Password is " . $_SESSION['password'] ; br(); }
 
