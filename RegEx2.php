@@ -104,8 +104,80 @@ if(preg_match($reg,$y) && preg_match("/[a-z]*/" ,$y) &&
 	echo "the password is ok";
 else
 	echo "you have to use at least one UPPER CASE letter one lowe case , one number  , and one special charcter  match";
+br(3);
+
+
+
+$y ="iakkkkkk";
+$reg="/^([a-z]?)([ab])/"; 
+if(preg_match($reg,$y))
+	echo "match";
+else
+	echo "not  match";
 
 br();
+
+
+$y ="kiakkkkkk";
+$reg="/^([a-z]?)([ab])/"; 
+if(preg_match($reg,$y))
+	echo "match";
+else
+	echo "not  match";
+
+br(2);
+
+
+$y ="akkkkkk";
+$reg="/^([a-z]?)([ab])/"; 
+if(preg_match($reg,$y))
+	echo "match";
+else
+	echo "not  match";
+
+br();
+
+
+$y ="akkkkkk";
+$reg="/^([a-z]+)([ab])/"; 
+if(preg_match($reg,$y))
+	echo "match";
+else
+	echo "not  match";
+
+br(2);
+
+
+$y ="akkkkkk";
+$reg="/^([a-z]{3,4})([ab])/"; 
+if(preg_match($reg,$y))
+	echo "match";
+else
+	echo "not  match";
+
+br();
+
+
+$y ="jjakkkkkk";
+$reg="/^([a-z]+)([ab])/"; 
+if(preg_match($reg,$y))
+	echo "match";
+else
+	echo "not  match";
+
+br();
+
+$y ="akkkkkk";
+$reg="/^([a-z]+)([ab]?)/"; 
+if(preg_match($reg,$y))
+	echo "match";
+else
+	echo "not  match";
+
+br();
+
+
+br(25);
 
 
 ?>
