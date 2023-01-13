@@ -1,6 +1,83 @@
 <?php
 include "uses.php";
+br(2);
 
+
+if(preg_match("/\D/","AAA"))
+	echo "match";
+else
+	echo "not  match";
+
+br(2);
+
+
+if(preg_match("/\d/","ccc"))
+	echo "match";
+else
+	echo "not  match";
+
+br(2);
+
+
+if(preg_match("/\d/","111"))
+	echo "match";
+else
+	echo "not  match";
+
+br(2);
+
+
+
+$y ="999999999567432";
+if(preg_match("/^9*[0-9]{4}/",$y))
+	echo "match";
+else
+	echo "not  match";
+
+br(2);
+
+
+
+$y ="9999998765";
+if(preg_match("/^9*[0-9]{4}/",$y))
+	echo "match";
+else
+	echo "not  match";
+
+br(2);
+
+
+$y ="991324";
+if(preg_match("/^9*[0-9]{4}/",$y))
+	echo "match";
+else
+	echo "not  match";
+
+br(2);
+
+
+
+
+$y ="999954321";
+if(preg_match("/^9*[0-9]{4}/",$y))
+	echo "match";
+else
+	echo "not  match";
+
+br(2);
+
+
+
+
+$y ="http://www.ju.edu.jo";
+if(preg_match("/^https?/",$y))
+	echo "match";
+else
+	echo "not  match";
+
+
+
+br(4);
 $y ="! how are you";
 $reg="/how/";
 if(preg_match($reg,$y))
