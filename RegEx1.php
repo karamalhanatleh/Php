@@ -2,7 +2,10 @@
 include "uses.php";
 br(2);
 
+echo preg_match("/^.{5}/","12aa3");
 
+
+br(2);
 if(preg_match("/\D/","AAA"))
 	echo "match";
 else
