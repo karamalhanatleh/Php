@@ -1,0 +1,60 @@
+
+
+ 1673970124 : Karam Alhanatleh 23 Male
+ 1673970131 : Bashar 45 Female
+ 1673970196 : Bashar 45 Female
+ 1673970199 :  Alhanatleh 12 Female
+ 1673970207 :  Alhanatleh 12 Female
+ 1673970210 :  Alhanatleh 12 Female
+ 1673970256 :  Alhanatleh 12 Female
+ 1673970258 :  Alhanatleh 12 Female
+ 1673970267 :  Alhanatleh 12 Female
+ 1673970269 :  Alhanatleh 12 Female
+ 1673970818 :  Alhanatleh 12 Female
+ 1673970834 :  Alhanatleh 12 Female
+ 1673970876 :  Alhanatleh 12 Female
+ 1673971523 :   Female
+ 1673971598 :   Female
+ 1673971644 :   Female
+ 1673971664 :   Female
+ 1673971666 :   Female
+ 1673971667 :   Female
+ 1673971689 :   Female
+ 1673971690 :   Female
+ 1673971727 :   Female
+ 1673971728 :   Female
+ 1673971729 :   Female
+ 1673971729 :   Female
+ 1673971757 :   Female
+ 1673971835 :   Female
+ 1673971864 :   Female
+ 1673972111 :   Female
+ 1673972122 :   Female
+ 1673972125 :   Female
+ 1673972126 :   Female
+ 1673972128 :   Female
+ 1673972187 :   Female
+ 1673972197 :   Female
+ 1673972207 :   Female
+ 1673972219 :   Female
+ 1673972398 : show : select * from data
+ 1673972401 : show : select * from data
+ 1673972490 show : select * from data
+ 1673973310 insert : insert into data (Name ,Age , Gender) values('Suleiman',23 , 'Female' ) 
+ 1673973310 show : select * from data
+ 1673973335 insert : insert into data (Name ,Age , Gender) values('Bashar',23 , 'Male' ) 
+ 1673973335 show : select * from data
+ 1673973737 show : select * from data
+ 1673973748 show : select * from data
+ 1673973891 show : select * from data
+ 1673973900 Delete : delete from data where Name=''
+ 1673973900 show : select * from data
+ 1673973915 Delete : delete from data where Name='Ali'
+ 1673973915 show : select * from data
+ 1673973953 show : select * from data
+ 1673973977 insert : insert into data (Name ,Age , Gender) values('waheed',32 , 'Male' ) 
+ 1673973977 show : select * from data
+ 1673974389 show : select * from data
+ 1673974405 show : select * from data
+ 1673974414 update : update data set Age= 44 WHERE Name= 'Karam' 
+ 1673974414 show : select * from data

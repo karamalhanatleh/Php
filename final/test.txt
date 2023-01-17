@@ -1,0 +1,5 @@
+Working with Text Files in PHP
+before you can use the fwrite()
+function, you must first open a
+handle to the text file with the
+fopen() function. Because you use
