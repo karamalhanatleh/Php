@@ -1,5 +1,53 @@
 <?php
 include("../uses.php");
+// ?=    0 or 1 
+
+
+br();
+ $reg="/(ali)/";
+ $y="ali";
+ if (preg_match($reg,$y))
+ echo "Match";
+ else
+ echo "No match";
+
+
+
+
+
+
+
+
+br();
+//    0 or 1
+$reg = "/[A-Z]?/";
+$y="123";
+echo preg_match($reg, $y);
+
+
+br();
+$reg = "/[a-z]?/";
+$y="AA";
+echo preg_match($reg, $y);
+
+
+
+br(10);
+hr();
+br();
+ $reg="/^m{2,}[a-c]{2}$/";
+ $y="mmmmmmcb";
+ if (preg_match($reg,$y))
+ echo "Match";
+ else
+ echo "No match";
+
+
+
+
+
+
+
 
 br();
  $reg="/^m{2,}[a-c]{2}$/";

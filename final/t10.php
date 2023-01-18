@@ -1,6 +1,5 @@
 <?php
 
-
 ?>
 
 <form method="POST" action="t10_2.php">
