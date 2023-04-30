@@ -1,6 +1,8 @@
 <?php
 $f= fopen("log2.txt" ,"a") or die("can't open file !!!");
 
+
+
 if(isset($_POST['submit'])){
 	print_r($_POST);
 	
